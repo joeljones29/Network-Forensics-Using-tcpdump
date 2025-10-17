@@ -2,7 +2,7 @@
 
 This README covers two network forensics analyses using tcpdump captures: Portscan Analysis and Reverse Shell Detection. Screenshots referenced here are from the associated PDF documentation.
 
----![SCP Log Transfer](images/scp_authlog.jpg)
+---
 
 ## Portscan Analysis
 
@@ -63,15 +63,15 @@ The attacker searches for this command to work and reach the attacker.
 
 ![ ](images/search.jpg)
 ![Enter password of the server and have access](images/enablerevshell.jpg)
-Now the attacker has access to the Ubuntu server via reverse shell method.
+- Now the attacker has access to the Ubuntu server via reverse shell method.
 
 Victim side (Ubuntu server):
 
-Enabled tcpdump
+- Enabled tcpdump
 
 ![Enabled tcpdump ](images/tcpdump_rev.jpg)
 
-Get the .pcap file and analyze it using Wireshark
+- Get the .pcap file and analyze it using Wireshark
 
 ![Wireshark filtering ](images/wireshark_rev.jpg)
 
