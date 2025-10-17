@@ -14,7 +14,6 @@ This part analyzes a TCP portscan attack captured using tcpdump. The attacker ma
 
 Attacker side (Kali Linux):
 
-![ip a](images/ipa.jpg)
 
 ![nmap scan](images/nmap.jpg)
 
